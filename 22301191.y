@@ -438,7 +438,7 @@ int main(int c, char *v[])
 
 	yyin = fopen(v[1], "r");
 
-	outlog.open("my_log.txt", ios::trunc);
+	outlog.open("22301191_log.txt", ios::trunc);
 
 	if(yyin == NULL)
 	{
